@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body,html,label,button,input{
+            padding: 0;
+            margin: 0;
+        }
+        .main{
+            margin: 300px auto;
+            width: 244px;
+            height: 400px;
+            background-color: #ccc;
+        }
+        #login{
+            float: right;
+        }
+    </style>
+</head>
+<body>
+<div class="main">
+    <label for="username">用户名：<input type="text" id="username"></label><br/>
+    <label for="password">密码：<input type="password" id="password"></label><br/>
+    <button id="submit">注册</button>
+    <button id="login">登录</button>
+</div>
+</body>
+<script src="client/jquery-1.8.3.min.js"></script>
+<script src="client/ajax.js"></script>
+</html>
